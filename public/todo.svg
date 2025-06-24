@@ -1,0 +1,6 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="80" height="80" rx="16" fill="#3C873A"/> <!-- Node.js green -->
+  <path d="M22 26h36v4H22v-4zm0 12h36v4H22v-4zm0 12h24v4H22v-4z" fill="white"/>
+  <circle cx="58" cy="50" r="4" fill="#3178C6"/> <!-- TypeScript blue check -->
+  <path d="M56.5 50.5l1.5 1.5 3-3" stroke="white" stroke-width="1.5" fill="none"/>
+</svg>
