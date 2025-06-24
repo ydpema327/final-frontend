@@ -1,54 +1,143 @@
-# React + TypeScript + Vite
+# 🎉 Todo Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Todo Dashboard** built using **Vite** and **React**. This project is designed for managing and viewing events in an intuitive interface, offering fast load times and a smooth user experience.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡ Lightning-fast development with [Vite](https://vitejs.dev/)
+- ⚛️ Component-based architecture using React
+- 🎨 Optional Tailwind CSS integration
+- 💡 Hot Module Replacement (HMR)
+- 📱 Responsive and easily customizable
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Getting Started
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Follow the steps below to clone and run this project locally.
+
+### 1. Clone the Repository
+
+Using SSH:
+
+```bash
+git clone git@github.com:kirangautam45/event-dashboard.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Or using HTTPS:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+git clone https://github.com/kirangautam45/event-dashboard.git
 ```
+
+Navigate into the project folder:
+
+```bash
+cd event-dashboard
+```
+
+---
+
+### 2. Install Dependencies
+
+Make sure you have **Node.js (v16 or later)** and either **npm** or **Yarn** installed.
+
+Install using **npm**:
+
+```bash
+npm install
+```
+
+Or using **Yarn**:
+
+```bash
+yarn
+```
+
+---
+
+### 3. Run the Development Server
+
+Using **npm**:
+
+```bash
+npm run dev
+```
+
+Or using **Yarn**:
+
+```bash
+yarn dev
+```
+
+Then open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+---
+
+### 4. Build for Production
+
+To generate a production-ready build:
+
+```bash
+npm run build
+```
+
+(Optional) To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+---
+
+## 📂 Project Structure
+
+```
+event-dashboard/
+├── public/             # Static public assets
+├── src/
+│   ├── assets/         # Images, fonts, etc.
+│   ├── components/     # Reusable React components
+│   ├── pages/          # Main pages/routes
+│   ├── App.jsx         # App root component
+│   └── main.jsx        # Vite entry point
+├── index.html          # HTML template
+├── package.json        # Project metadata and scripts
+└── vite.config.js      # Vite configuration
+```
+
+---
+
+## 📜 Available Scripts
+
+| Script             | Description                              |
+|--------------------|------------------------------------------|
+| `npm run dev`       | Start local development server           |
+| `npm run build`     | Build app for production                 |
+| `npm run preview`   | Preview production build locally         |
+
+---
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 👨‍💻 Contributing
+
+Contributions are welcome! Feel free to fork the repository, make your changes, and submit a pull request.
+
+---
+
+## 🙋‍♂️ Author
+
+Developed with ❤️ by [Kiran Gautam](https://www.kirangtm.com.np/)
+
+Connect with me on [GitHub](https://github.com/kirangautam45) | [LinkedIn](https://linkedin.com/in/kirangautam45)
+
+---
